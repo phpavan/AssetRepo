@@ -30,6 +30,20 @@
             <value name="email">contact@johnandsons.com</value>
           </record>
         </record>
+         <record javaclass="com.wm.data.ISMemDataImpl">
+          <value name="name">TestUser</value>
+          <value name="id">3</value>
+          <record name="address" javaclass="com.wm.data.ISMemDataImpl">
+            <value name="line1">395 Abu Nuevo</value>
+            <value name="city">Santa clara</value>
+            <value name="state">CA</value>
+          </record>
+          <record name="contact" javaclass="com.wm.data.ISMemDataImpl">
+            <value name="phone">444-777-8765</value>
+            <value name="email">testuser@softwraeag.com</value>
+          </record>
+        </record>
+        
       </array>
     </record>
   </record>
